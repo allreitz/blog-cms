@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="format.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-</head>
+<?php
+include 'header.php';
+?>
   <nav>
     <a href="index.html">Home</a> 
     <a href="post-submission.html">Post Submission</a> 
