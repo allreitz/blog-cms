@@ -1,0 +1,80 @@
+body{
+	background: #cccccc;
+	font-family: "helvetica", "arial", "sans-serif"
+	}
+#parent{
+	border: 1px solid #000000;
+	width: 80%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;/*centers the page*/
+	text-align: center; /*centers content in a region*/
+	padding: 10px;
+	box-sizing: border-box; /*compensates for padding enlargement*/
+	box-shadow: #444444 0px 0px 10px;
+	}
+	
+#header{
+	background: #999999;
+	width: 100%;
+	height: 22%;
+	margin-left: auto;
+	margin-right: auto;/*centers region in browser*/
+	text-align: center; /*centers content in a region*/
+	padding: 10px;
+	box-sizing: border-box; /*compensates for padding enlargement*/
+	border-radius: 10px;
+	
+	}
+	
+#content{
+	background: #999999;
+ 	width: 100%;
+	height: 68%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;/*centers region in browser*/
+	text-align: center; /*centers content in a region*/
+	padding: 10px;
+	box-sizing: border-box; /*compensates for padding enlargement*/
+	overflow: scroll;
+	border-radius: 10px;
+	
+	}
+	
+#footer{
+	background: #999999;
+ 	width: 100%;
+	height: 6%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;/*centers region in browser*/
+	text-align: center; /*centers content in a region*/
+	padding: 10px;
+	box-sizing: border-box; /*compensates for padding enlargement*/
+	border-radius: 10px;
+	font-family: 'Roboto', sans-serif;
+	
+	}
+	
+	
+h1{
+	margin-top: 0px;
+	font-size: 2.4em; /* 1 em is default h1*/
+	}
+	
+.pic1{
+	width: 45%;
+	border: 2px solid #ffffff
+	}
+
+.text1{
+	font-size: .8em;
+	color: #222222;
+	line-height: 1.2em;
+	}
+	
+a:link{text-decoration: none; color: #cccccc; margin: 10px; background: #555555; padding: 6px; border-radius: 6px;}
+a:visited{text-decoration: none; color: #cccccc; margin: 10px; background: #555555; padding: 6px; border-radius: 6px;}
+a:active{text-decoration: none; color: #cccccc; margin: 10px; background: #555555; padding: 6px; border-radius: 6px;}
+a:hover{text-decoration: none; color: #555555; margin: 10px; background: #cccccc; padding: 6px; border-radius: 6px;}
