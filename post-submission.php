@@ -1,7 +1,6 @@
 <?php
-include 'header.php';
+  include "header.php";
 ?>
-
   <nav>
     <a href="index.html">Home</a> 
     <a href="post-submission.html">Post Submission</a> 

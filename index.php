@@ -1,17 +1,17 @@
 <?php
-include 'header.php';
+  include "header.php";
 ?>
   <nav>
-    <a href="index.html">Home</a> 
-    <a href="post-submission.html">Post Submission</a> 
+    <a href="index.php">Home</a> 
+    <a href="post-submission.php">Post Submission</a> 
  
   </nav>
   <main>
         <ol>
-            <li><a href="post.html">Post 1</a></li>
+            <li><a href="post.php">Post 1</a></li>
         </ol>
               
-    <h1>Lorem Ipsum</h1>
+    <h1>Lorem Ipsum THIS IS A TEST</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
