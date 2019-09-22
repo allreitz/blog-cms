@@ -1,11 +1,9 @@
 <?php
   include "header.php";
 ?>
-  <nav>
-    <a href="index.html">Home</a> 
-    <a href="post-submission.html">Post Submission</a> 
- 
-  </nav>
+  <?php
+    include "nav.php";
+  ?>
   <main>
     <h1>                       </h1>
     <form action="/action_page.php" method="get">
@@ -18,8 +16,7 @@
         </textarea>
     </form>
   </main>
-  <footer>
-    <p>Posted by: Alexander Reitz</p>
-    <p>Contact information: <a>alexander.w.reitz@gmail.com</a>.</p>
-  </footer>
+  <?php
+    include "nav.php";
+  ?>
 </html>

@@ -1,11 +1,9 @@
 <?php
   include "header.php";
 ?>
-  <nav>
-    <a href="index.php">Home</a> 
-    <a href="post-submission.php">Post Submission</a> 
- 
-  </nav>
+  <?php
+    include "nav.php";
+  ?>
   <main>
         <ol>
             <li><a href="post.php">Post 1</a></li>
@@ -53,8 +51,7 @@
              deserunt mollit anim id est laborum.</p>
     </article>
   </main>
-  <footer>
-    <p>Posted by: Alexander Reitz</p>
-    <p>Contact information: <a>alexander.w.reitz@gmail.com</a>.</p>
-  </footer>
+  <?php
+    include "footer.php";
+  ?>
 </html>

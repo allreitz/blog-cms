@@ -1,11 +1,9 @@
 <?php
   include "header.php";
 ?>
-  <nav>
-    <a href="index.html">Home</a> 
-    <a href="post-submission.html">Post Submission</a> 
- 
-  </nav>
+  <?php
+    include "nav.php";
+  ?>
   <main>
               
     <h1>Lorem Ipsum</h1>
@@ -24,8 +22,7 @@
         </div>
     </article>
   </main>
-  <footer>
-    <p>Posted by: Alexander Reitz</p>
-    <p>Contact information: <a>alexander.w.reitz@gmail.com</a>.</p>
-  </footer>
+  <?php
+    include "footer.php";
+  ?>
 </html>
