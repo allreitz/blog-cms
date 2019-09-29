@@ -14,9 +14,18 @@
         <textarea rows="4" cols="50">
                 
         </textarea>
+        <form action="/action_page.php" method="get">
+  
+  
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+</form>
+
     </form>
   </main>
   <?php
-    include "nav.php";
+    include "footer.php";
   ?>
 </html>
