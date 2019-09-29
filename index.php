@@ -4,52 +4,36 @@
   <?php
     include "nav.php";
   ?>
+  <?php
+     php include_once 'db_connect.php' 
+  ?>
+
+
   <main>
-        <ol>
-            <li><a href="post.php">Post 1</a></li>
-        </ol>
-              
-    <h1>Lorem Ipsum THIS IS A TEST</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-             occaecat cupidatat non proident, sunt in culpa qui officia 
-             deserunt mollit anim id est laborum..</p>
-  
-    <article>
-      <h1>Lorem Ipsum</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-             occaecat cupidatat non proident, sunt in culpa qui officia 
-             deserunt mollit anim id est laborum.</p>
-    </article>
-  
-    <article>
-      <h1>Lorem Ipsum</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-             occaecat cupidatat non proident, sunt in culpa qui officia 
-             deserunt mollit anim id est laborum.</p>
-    </article>
-  
-    <article>
-      <h1>Lorem Ipsum</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-             occaecat cupidatat non proident, sunt in culpa qui officia 
-             deserunt mollit anim id est laborum.</p>
-    </article>
+    <?php
+      function getPostTitlesFromDatabase() {
+        //todo in module 4
+        // get this data from databse instead of hardcoding it
+        $postTitles = array("Blog Post 1", "Blog Post 2", "Blog Post 3");
+        return $postTitles;
+      }
+    ?>
+    <ul>
+      <?php
+        $postTitles = getPostTitlesFromDatabase();
+
+        foreach($postTitles as $postTitle) {
+          echo "<li><a href='post.php'>" . $postTitle . "</a></li>";
+        }
+      ?>
+    </ul>
+  <body>
+        $sql = "";
+  </body>
+   
+
+ 
+
   </main>
   <?php
     include "footer.php";
